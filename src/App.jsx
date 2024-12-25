@@ -40,7 +40,7 @@ function App() {
   let years_Total = [];
   function clicksubmit(){
   // initialize a variable
-    
+
   let yearinterestrate = interestRate/100;
   let monthlyinterestrate = yearinterestrate/12;
   let cumaltiveinvestment ;
@@ -75,7 +75,7 @@ function App() {
         valueduration = {duration}
       ></Inputs>
       <Result value = {yearsTotal}></Result>
-      <h4 className="develop">Develop by Sudhinnaveen38@gamil.com</h4>
+      <h4 className="develop">Developed by Sudhinnaveen38@gamil.com</h4>
     </>
   );
 }
