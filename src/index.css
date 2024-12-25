@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    background-color: black;
+    touch-action: manipulation;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+}
+
+
+input[type=number] {
+  --moz-appearance: textfield;
+}
+
+.heading{
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 25px;
+    margin: 1rem auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: white;
+}
+.backgroundImage{
+    width: 200px;
+    height: 200px;
+}
+.Image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+label{
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 15px;
+    color: white;
+    position: relative;
+    right: 10px;
+}
+input{
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    width: 150px;
+    height: 30px;
+    padding: 10px;
+    border: none;
+    border: 1px solid white;
+    border-radius: 5px;
+    z-index: 0;
+    background-color: black;
+    color: white;
+}
+button{
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    width: 120px;
+    height: 45px;
+    padding: 25px;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid white;
+    cursor: pointer;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    margin-top: 20px ;
+}
+.button:hover{
+    box-shadow:  rgb(255, 255, 255);
+}
+.first_row_input{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.Whole_input_div{
+    width: 600px;
+    height: 200px;
+    background-color: black;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 0 auto;
+}
+.whole_table_div{
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    width: 500px;
+    height: 100%;
+    color: white;
+    margin: 1rem auto;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    
+}
+td{
+    
+    margin: 0 auto;
+    padding: 20px;
+}
+th{
+   
+    border-right: 1px solid white;
+    padding: 10px;
+}
+.develop{
+    font-family: "Poppins", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 12px;
+    color: white;
+    justify-self: center
+}
+@media only screen and (max-width: 453px){
+    .Whole_input_div{
+        width: 250px;
+        height: 300px;
+        margin: 0 auto;
+    }
+    .first_row_input{
+        display: block;
+        grid-row: 10px;
+    }
+    input{
+        display: block;
+        width: 200px;
+        height: 30px;
+        margin: 0 auto;
+    } 
+    label{
+        position: relative;
+        margin: 0 auto;
+    }
+    button{
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+    .develop{
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .whole_table_div{
+        width: 100%;
+        font-size: 12px;
+    }
+}
